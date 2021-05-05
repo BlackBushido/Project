@@ -1,33 +1,32 @@
-<head>
-    <link rel="stylesheet" href="CSS/style.css" type="text/css" />
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="JS/form.js"></script>
-</head>
 <section id="shop">
     <form onsubmit="save()">
-        Imię:
-        <input type="text" id="name" required><br><br>
-        Nazwisko:
-        <input type="text" id="lastname" required><br><br>
-        e-mail:
-        <input type="email" id="email" required><br><br>
-        Telefon:
-        <input type="tel" id="tel" required><br><br>
-        Kod pocztowy:
-        <input type="text" id="post" required><br><br>
-        Miasto:
-        <input type="text" id="city" required><br><br>
-        Miejscowość:
-        <input type="text" id="country" required><br><br>
-        Wybierz maszynę:
-        <select name="product" id="product" size="1">
-            <option value="tractor">Traktor</option>
-            <option value="harvester">Kombajn</option>
-            <option value="mower">Kosiarka</option>
-            <option value="press">Prasa</option>
-            <option value="wrapper">Owijarka</option>
-            <option value="rake">Zgrabiarka</option>
-        </select>
-        <div id="next"></div>
+        <fieldset>
+            Imię:
+            <input type="text" id="name" required><br><br>
+            Nazwisko:
+            <input type="text" id="lastname" required><br><br>
+            e-mail:
+            <input type="email" id="email" required><br><br>
+            Telefon:
+            <input type="tel" id="tel" required><br><br>
+            Kod pocztowy:
+            <input type="text" id="post" required><br><br>
+            Miasto:
+            <input type="text" id="city" required><br><br>
+            Miejscowość:
+            <input type="text" id="country" required><br><br>
+            Wybierz maszynę:
+            <select name="product" id="product" size="1">
+                <option value="tractor">Traktor</option>
+                <option value="harvester">Kombajn</option>
+                <option value="mower">Kosiarka</option>
+                <option value="press">Prasa</option>
+                <option value="wrapper">Owijarka</option>
+                <option value="rake">Zgrabiarka</option>
+            </select><br><br>
+        </fieldset>
+        <input type="submit" class="but" value="Dalej">
+        <input type="reset" class="but" value="Wyczyść">
+        
     </form>
 </section>
