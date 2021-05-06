@@ -1,28 +1,48 @@
 <section id="shop">
     <form onsubmit="save()">
-            Imię:
-            <input type="text" id="name" required><br><br>
-            Nazwisko:
-            <input type="text" id="lastname" required><br><br>
-            e-mail:
-            <input type="email" id="email" required><br><br>
-            Telefon:
-            <input type="tel" id="tel" required><br><br>
-            Kod pocztowy:
-            <input type="text" id="post" required><br><br>
-            Miasto:
-            <input type="text" id="city" required><br><br>
-            Miejscowość:
-            <input type="text" id="country" required><br><br>
-            Wybierz maszynę:
-            <select name="product" id="product" size="1">
-                <option value="tractor">Traktor</option>
-                <option value="harvester">Kombajn</option>
-                <option value="mower">Kosiarka</option>
-                <option value="press">Prasa</option>
-                <option value="wrapper">Owijarka</option>
-                <option value="rake">Zgrabiarka</option>
-            </select><br><br>
+        <table>
+            <tr>
+                <td>Imię:</td>
+                <td><input type="text" id="name" required></td>
+            </tr>
+            <tr>
+                <td>Nazwisko:</td>
+                <td><input type="text" id="lastname" required></td>
+            </tr>
+            <tr>
+                <td>e-mail:</td>
+                <td><input type="email" id="email" required></td>
+            </tr>
+            <tr>
+                <td>Telefon:</td>
+                <td><input type="tel" id="tel" required></td>
+            </tr>
+            <tr>
+                <td>Kod pocztowy:</td>
+                <td><input type="text" id="post" required></td>
+            </tr>
+            <tr>
+                <td>Miasto:</td>
+                <td><input type="text" id="city" required></td>
+            </tr>
+            <tr>
+                <td>Miejscowość:</td>
+                <td><input type="text" id="country" required></td>
+            </tr>
+            <tr>
+                <td>Wybierz maszynę:</td>
+                <td>
+                    <select name="product" id="product" size="1">
+                        <option value="tractor">Traktor</option>
+                        <option value="harvester">Kombajn</option>
+                        <option value="mower">Kosiarka</option>
+                        <option value="press">Prasa</option>
+                        <option value="wrapper">Owijarka</option>
+                        <option value="rake">Zgrabiarka</option>
+                    </select>
+                </td>
+            </tr>
+        </table>
             <button onclick="load()">Dalej</button>
         <div id="next"></div>
     </form>
