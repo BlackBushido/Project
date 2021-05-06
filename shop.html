@@ -1,6 +1,5 @@
 <section id="shop">
     <form onsubmit="save()">
-        <fieldset>
             Imię:
             <input type="text" id="name" required><br><br>
             Nazwisko:
@@ -24,9 +23,7 @@
                 <option value="wrapper">Owijarka</option>
                 <option value="rake">Zgrabiarka</option>
             </select><br><br>
-        </fieldset>
-        <input type="submit" class="but" value="Dalej">
-        <input type="reset" class="but" value="Wyczyść">
-        
+            <button onclick="load()">Dalej</button>
+        <div id="next"></div>
     </form>
 </section>
