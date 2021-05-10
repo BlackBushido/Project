@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Projekt</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" type="image/png" href="Images/icon.png">
+        <link rel="stylesheet" href="CSS/slide.css" type="text/css" />
+        <link rel="stylesheet" href="CSS/style.css" type="text/css" />
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://maps.google.com/maps/api/js?sensor=false" ></script>
+        <script src="JS/slide.js"></script>
+        <script src="JS/content.js"></script>
+        <script src="JS/form.js"></script>
+        <script src="JS/saveForm.js"></script>
+        <script src="JS/map.js"></script>
+    </head>
+    <body>
+        <header>
+            <ul class="slides">
+                    
+                <li class="slide-container">
+                    <input type="radio" name="radio-btn" id="img-1" checked />
+                            <div class="slide">
+                                    <img src="Images/slide1.jpg" alt="img1" />
+                    </div>
+                            <div class="nav">
+                                    <label for="img-5" class="prev">&#x2039;</label>
+                                    <label for="img-2" class="next">&#x203a;</label>
+                            </div>
+                </li>
+
+                
+                <li class="slide-container">
+                    <input type="radio" name="radio-btn" id="img-2" />
+                    <div class="slide">
+                      <img src="Images/slide2.jpg" alt="img2"/>
+                    </div>
+                            <div class="nav">
+                                    <label for="img-1" class="prev">&#x2039;</label>
+                                    <label for="img-3" class="next">&#x203a;</label>
+                            </div>
+                </li>
+
+                
+                <li class="slide-container">
+                    <input type="radio" name="radio-btn" id="img-3" />
+                    <div class="slide">
+                      <img src="Images/slide3.jpg" alt="img3" />
+                    </div>
+                            <div class="nav">
+                                    <label for="img-2" class="prev">&#x2039;</label>
+                                    <label for="img-4" class="next">&#x203a;</label>
+                            </div>
+                </li>
+
+                
+                <li class="slide-container">
+                    <input type="radio" name="radio-btn" id="img-4" />
+                    <div class="slide">
+                      <img src="Images/slide4.jpg" alt="img4" />
+                    </div>
+                            <div class="nav">
+                                    <label for="img-3" class="prev">&#x2039;</label>
+                                    <label for="img-5" class="next">&#x203a;</label>
+                            </div>
+                </li>
+
+                
+                <li class="slide-container">
+                    <input type="radio" name="radio-btn" id="img-5" />
+                    <div class="slide">
+                      <img src="Images/slide5.jpg" alt="img5" />
+                    </div>
+                            <div class="nav">
+                                    <label for="img-4" class="prev">&#x2039;</label>
+                                    <label for="img-1" class="next">&#x203a;</label>
+                            </div>
+                </li>
+
+                <li class="nav-dots">
+                  <label for="img-1" class="nav-dot" id="img-dot-1"></label>
+                  <label for="img-2" class="nav-dot" id="img-dot-2"></label>
+                  <label for="img-3" class="nav-dot" id="img-dot-3"></label>
+                  <label for="img-4" class="nav-dot" id="img-dot-4"></label>
+                  <label for="img-5" class="nav-dot" id="img-dot-5"></label>
+                </li>
+            </ul>
+            <nav>
+                <button id="home">Home</button>
+                <button id="productss">Products</button>
+                <button id="shop">Shop</button>
+                <button id="contact">Contact</button>
+            </nav>
+        </header>
+        <section>
+            <div id="content"></div>
+            <aside id="slideshow">
+                <a href="https://www.deutz-fahr.com/pl-pl/promocje-oferty/promocje/10794-1-rok-bezplatnej-licencji" class="active" >
+                    <img src="Images/promotion1.jfif" alt="promotion1" />
+                </a>
+                <a href="https://www.deutz-fahr.com/pl-pl/promocje-oferty/promocje/8351-oferta-power-2021">
+                    <img src="Images/promotion2.jfif" alt="promotion2" />
+                </a>
+                <a href="https://www.deutz-fahr.com/pl-pl/promocje-oferty/promocje/10224-oferta-specjalna-kombajn-c7205-ts">
+                    <img src="Images/promotion3.jfif" alt="promotion3" />
+                </a>
+                <a href="https://www.deutz-fahr.com/pl-pl/promocje-oferty/promocje/10937-profesjonalny-duet-powraca-promocja-na-model-5110g-z-ladowaczem">
+                    <img src="Images/promotion4.jfif" alt="promotion4" />
+                </a>
+            </aside>
+        </section>
+        <table id="rewards">
+            <tr>
+                <td>
+                    <img src="Images/reward1.jpg" alt="reward1">
+                    <h3>DRIVER EXTENDED EYES</h3>
+                    <P>
+                        Międzynarodowa komisja ekspertów przyznała marce DEUTZ-FAHR srebrny medal w konkursie Agritechnica Innovation Award 2015
+                        za nową technologię o nazwie Driver Extended Eye - system bazujący na kamerach,
+                        którego celem jest zapewnienie bezpieczeństwa jazdy w pracach rolniczych.
+                    </P>
+                </td>
+                <td>
+                    <img src="Images/reward2.jpg" alt="reward2">
+                    <h3>GOLDEN TRACTOR FOR THE DESIGN 2015</h3>
+                    <P>
+                       9340 TTV DEUTZ-FAHR został nagrodzony ważnym wyróżnieniem "Golden Tractor for the Design" 2015 za gamę ciągników DEUTZ-FAHR z 
+                       segmentu maszyn o dużej mocy.
+                    </P>
+                </td>
+                <td>
+                    <img src="Images/reward3.jpg" alt="reward3">
+                    <h3>MACHINE OF THE YEAR 2016</h3>
+                    <P>
+                        W trakcie targów Agritechnica 2015 modele DEUTZ-FAHR Serii 6 Cshift uzyskały tytuł "Machine of the Year 2016"
+                        w kategorii ciągników wyższej klasy średniej. Decydującym dla jury argumentem okazała się wyjątkowo wygodna w obsłudze, 
+                        wydajna, zrobotyzowana skrzynia biegów Powershift.
+                    </P>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <img src="Images/reward4.jpg" alt="reward4">
+                    <h3>GERMAN DESIGN 2014</h3>
+                    <P>
+                        Nasze ciągniki Agrotron TTV serii 6 oraz kabina MaxiVision Cab zwyciężyły w konkursie „German Design Award 2014” 
+                        w kategorii „Transport i przestrzeń publiczna”: jest to międzynarodowa nagroda przyznawana najwyższej jakości produktom
+                        i projektom.
+                    </P>
+                </td>
+                <td>
+                    <img src="Images/reward5.jpg" alt="reward5">
+                    <h3>COMPASSO D'ORO 2014</h3>
+                    <P>
+                        DEUTZ-FAHR 7250 TTV Agrotron został laureatem nagrody Compasso d’Oro 2014. W ten sposób jeszcze raz potwierdziła się opinia,
+                        że jest on w ścisłej czołówce jeśli chodzi o zaawansowaną technologię w niepowtarzalnym stylu Giugiaro Design.
+                    </P>
+                </td>
+                <td>
+                    <img src="Images/reward6.jpg" alt="reward6">
+                    <h3>TMA - MACHINE OF THE YEAR 2014</h3>
+                    <P>
+                        Jeden z naszych najbardziej zaawansowanych pod względem mocy i technologii modeli ciągników otrzymał nagrodę „Machine of the Year 2014” 
+                        w kategorii „Best Powered Machine” na targach Farm World w Lardner Park.
+                    </P>
+                </td>
+            </tr>
+        </table>
+         <footer><h2>&copy;DO</h2></footer>
+    </body>
+</html>
